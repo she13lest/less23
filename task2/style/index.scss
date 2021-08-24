@@ -12,10 +12,11 @@ body {
 }
 
 .square {
+display: flex;
   height: 100px;
   width: 100px;
   background-color: #ff7f50;
-  margin: 8px;
+  margin: 16px 8px 16px 8px;
 
   @include for-medium-up {
     background-color: #8a2be2;
