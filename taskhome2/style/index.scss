@@ -1,0 +1,19 @@
+@import 'layout.scss';
+@import 'breakpoints.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+.products {
+  @include for-type-small {
+    display: flex;
+    flex-grow: 2;
+  }
+}
+
+.content {
+  @include for-type-medium {
+    display: flex;
+  }
+}
